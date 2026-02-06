@@ -15,3 +15,8 @@ TIPI_SUPERFICIE = {
     3: {"nome": "Roccia", "colori": [(80, 80, 80), (100, 100, 100), (60, 60, 60)]},
     4: {"nome": "Acqua", "colori": [(30, 60, 180), (40, 80, 200), (20, 50, 150)]}
 }
+
+# Aggiungi in config.py
+MODES = ["ADD", "EDIT", "DELETE", "PAN", "FILL"]
+ZOOM_MIN = 0.5
+ZOOM_MAX = 5.0
